@@ -1,0 +1,21 @@
+#cont{
+    width: 400px;
+    height: 60px;
+    border: 5px solid black;
+}
+#b{
+    width: 50px;
+    float: right;
+    padding-right: 10px;
+    position: relative;
+    top: 6px;
+}
+#a{
+    width: 80%;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 40px;
+
+}

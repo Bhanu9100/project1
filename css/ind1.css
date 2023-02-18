@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    letter-spacing: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    font-size: 0px;
+    width: 100%;
+    height: 400px;
+    background-image: url(../asset/image/MOUNT\ LEFT.png), url(../asset/image/MOUNR\ RIGHT.png), url(../asset/image/background\ mount.jpg) ;
+    background-size: 70% 400px, 70% 400px, 100% 600px;
+    background-repeat: no-repeat;
+    background-position:0px 40px, right bottom , 0px -100px;
+    box-shadow: 0px 10px 5px rgb(109, 7, 109);
+    transition: background-position 1s, color 3s, text-shadow 3s, font-size 2s;
+}
+#header:hover{
+    font-size: 30px;
+    color:black;
+    text-shadow: 2px 2px 5px skyblue, -2px -2px 5px yellow, 0px 0px 10px black;
+    background-position: -230px 20px, 630px 20px , 0px -180px;
+}
+#videolayoutleft{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-color: purple;
+    position: relative;
+}
+#leftvideo{
+    float: left;
+    width: 380px;
+    border-radius: 10px;
+    position:absolute;
+    left: 10%;
+    box-shadow: 2px 2px 5px black;
+    top:15%;
+}
+#rightHeading{
+    position: absolute;
+    right: 20%;
+    color: pink;
+}
+#rightpara{
+    color: white;
+    text-align: justify;
+    text-indent: 20px;
+    width: 50%;
+    position: absolute;
+    right: 1%;
+    top: 20%;
+    font-size: 24px;
+}
+#videolayoutright{
+    float: right;
+    width: 100%;
+    height: 300px;
+    background-color: purple;
+}
+#rightvideo{
+    float: right;
+    width: 380px;
+    border-radius: 10px;
+    position:absolute;
+    right: 10%;
+    top: 126%;
+    box-shadow: 2px 2px 5px black;
+}
+#leftheading{
+    position: absolute;
+    left: 20%;
+    color: pink;
+}
+#leftpara{
+    font-size: 24px;
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: 130%;
+    left: 1%;
+    text-align: justify;
+    text-indent: 20px;
+}
+#videolayoutleft2{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-color: purple;
+    position: relative;
+}
+#leftvideo2{
+    float: left;
+    width: 380px;
+    border-radius: 10px;
+    position:absolute;
+    left: 10%;
+    box-shadow: 2px 2px 5px black;
+    top:15%;
+}
+#rightHeading2{
+    position: absolute;
+    right: 20%;
+    color: pink;
+}
+#rightpara2{
+    color: white;
+    text-align: justify;
+    text-indent: 20px;
+    width: 50%;
+    position: absolute;
+    right: 1%;
+    top: 20%;
+    font-size: 24px;
+}
+#videolayoutright2{
+    float: right;
+    width: 100%;
+    height: 300px;
+    background-color: purple;
+}
+#rightvideo2{
+    float: right;
+    width: 380px;
+    border-radius: 10px;
+    position:absolute;
+    right: 10%;
+    top: 220%;
+    box-shadow: 2px 2px 5px black;
+}
+#leftheading2{
+    position: absolute;
+    left: 20%;
+    color: pink;
+}
+#leftpara2{
+    font-size: 24px;
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: 220%;
+    left: 1%;
+    text-align: justify;
+    text-indent: 20px;
+}
+#navbar{
+    z-index: 10;
+}
+p{
+    font-family: cursive;
+}
